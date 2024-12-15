@@ -15,7 +15,7 @@ C:/Users/annag/Desktop/Unity Projects/RPG Sci-fi Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-58544
+61558
 -job-worker-count
 11
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/annag/Desktop/Unity Projects/RPG Sci-fi Project
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [60044]  Target information:
+Player connection [61712]  Target information:
 
-Player connection [60044]  * "[IP] 10.0.0.22 [Port] 0 [Flags] 2 [Guid] 2030473131 [EditorId] 2030473131 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EBGU93NJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [61712]  * "[IP] 10.0.0.22 [Port] 0 [Flags] 2 [Guid] 909472505 [EditorId] 909472505 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EBGU93NJ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [60044] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [60044] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [61712] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [61712] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 229.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.30f1 (62b05ba0686a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Resources/UnitySubsystems
@@ -91,45 +91,45 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004969 seconds.
-- Loaded All Assemblies, in  0.387 seconds
+Registered in 0.002726 seconds.
+- Loaded All Assemblies, in  1.294 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.259 seconds
-Domain Reload Profiling: 645ms
-	BeginReloadAssembly (167ms)
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 1544ms
+	BeginReloadAssembly (106ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (45ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (165ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (1111ms)
+		LoadAssemblies (104ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (127ms)
-				TypeCache.ScanAssembly (116ms)
+		AnalyzeDomain (1108ms)
+			TypeCache.Refresh (1107ms)
+				TypeCache.ScanAssembly (1097ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (259ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (252ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (223ms)
+		SetupLoadedEditorAssemblies (222ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (26ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (42ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (41ms)
 			ProcessInitializeOnLoadAttributes (111ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -138,130 +138,931 @@ Domain Reload Profiling: 645ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.703 seconds
-Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.190 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.800 seconds
-Domain Reload Profiling: 1495ms
-	BeginReloadAssembly (141ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (488ms)
-		LoadAssemblies (363ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (211ms)
-			TypeCache.Refresh (141ms)
-				TypeCache.ScanAssembly (127ms)
-			BuildScriptInfoCaches (60ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (800ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (656ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (85ms)
-			ProcessInitializeOnLoadAttributes (488ms)
-			ProcessInitializeOnLoadMethodAttributes (74ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5900 unused Assets / (5.6 MB). Loaded Objects now: 6566.
-Memory consumption went from 162.9 MB to 157.3 MB.
-Total: 36.836200 ms (FindLiveObjects: 0.701700 ms CreateObjectMapping: 0.938700 ms MarkObjects: 6.347200 ms  DeleteObjects: 28.844200 ms)
-
-========================================================================
-Received Prepare
-Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
-Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
-Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef)
-Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
-Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
-Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef)
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.623 seconds
-Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
-Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
-Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef)
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Unity.PlasticSCM.Editor.asmdef)
-Assembly with name 'Unity.PlasticSCM.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Unity.PlasticSCM.Editor.asmdef)
-Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/PlasticSCM/Toolbar/Unity.CollabProxy.Editor.asmdef)
-Assembly with name 'Unity.CollabProxy.Editor' already exists (Packages/com.unity.collab-proxy/Editor/Toolbar/Unity.CollabProxy.Editor.asmdef)
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.759 seconds
-Domain Reload Profiling: 1382ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 442ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (33ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (383ms)
-		LoadAssemblies (276ms)
+	initialDomainReloadingComplete (15ms)
+	LoadAllAssembliesAndSetupDomain (8ms)
+		LoadAssemblies (79ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (110ms)
-				TypeCache.ScanAssembly (99ms)
-			BuildScriptInfoCaches (74ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (760ms)
+		AnalyzeDomain (6ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (253ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (593ms)
+		SetupLoadedEditorAssemblies (164ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (460ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (46ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5906 unused Assets / (4.4 MB). Loaded Objects now: 6591.
-Memory consumption went from 147.1 MB to 142.7 MB.
-Total: 7.226200 ms (FindLiveObjects: 0.506200 ms CreateObjectMapping: 0.415700 ms MarkObjects: 4.045500 ms  DeleteObjects: 2.257100 ms)
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 unused Assets / (39.5 KB). Loaded Objects now: 509.
+Memory consumption went from 56.3 MB to 56.3 MB.
+Total: 5.085000 ms (FindLiveObjects: 0.043600 ms CreateObjectMapping: 0.004500 ms MarkObjects: 4.950700 ms  DeleteObjects: 0.081100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1021636.564078 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b226d44b674aa1448a1bbab68f96debe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b226d44b674aa1448a1bbab68f96debe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ff5f3ff4e56b52100d8daf7dd3a2dae') in 0.0457762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0036907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 512.
+Memory consumption went from 55.9 MB to 55.9 MB.
+Total: 2.354500 ms (FindLiveObjects: 0.020800 ms CreateObjectMapping: 0.002400 ms MarkObjects: 2.327600 ms  DeleteObjects: 0.002900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1011325.366996 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(b226d44b674aa1448a1bbab68f96debe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(b226d44b674aa1448a1bbab68f96debe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca2dc269335e105116ae0992ac5a8dc7') in 0.022178 seconds
+  Time since last request: 86.980986 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(b4b0314b5cba0304fb6a5c462b0594d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/New Terrain 1.asset using Guid(b4b0314b5cba0304fb6a5c462b0594d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77bc61655521a6e9812b1975fdcf1c22') in 0.1237781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/_Creepy_Cat/Readme Help Sos Doc.txt
+  artifactKey: Guid(36ae8d8371deb4e43acdb35aec633024) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/Readme Help Sos Doc.txt using Guid(36ae8d8371deb4e43acdb35aec633024) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa6d4367ba0c2a8717656c6a551dd696') in 0.026176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_02_Norm.mat
+  artifactKey: Guid(f560c6b24811247ca966b15a6ada8a14) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_02_Norm.mat using Guid(f560c6b24811247ca966b15a6ada8a14) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5b0621a76226a9df71ff408f4b9f2a8') in 0.2134189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Floor_01_Dif_Style_02_Norm.png
+  artifactKey: Guid(878fae4346deb462394ff7b6dedd64c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Floor_01_Dif_Style_02_Norm.png using Guid(878fae4346deb462394ff7b6dedd64c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd1fe467df1ac7a172b5e7adfb724ccdf') in 0.0796622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73d65fbf9eca5d9e5b848a72cf7e1d0e') in 0.0227419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Alpha_01_Dif_Style_01.png
+  artifactKey: Guid(d1c3f37a9d0d74a0f85099579b922af5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Alpha_01_Dif_Style_01.png using Guid(d1c3f37a9d0d74a0f85099579b922af5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a74d06ef5608c4d8ec8afd584be78027') in 0.0385776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/_Creepy_Cat/Camera Profile.asset
+  artifactKey: Guid(6fb110d92f9ce5446b3478baff832b70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/Camera Profile.asset using Guid(6fb110d92f9ce5446b3478baff832b70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49eeaf0ff2727a723c595d534c13ddb6') in 0.0148332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_01_Dif_Style_02_Norm.png
+  artifactKey: Guid(4b2f9dfdb0c5f45a694b35e8851842ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_01_Dif_Style_02_Norm.png using Guid(4b2f9dfdb0c5f45a694b35e8851842ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74cf4563052ec1a99de71eb29a676859') in 0.0569029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_05_Dif_Style_02_Alb.png
+  artifactKey: Guid(4ef2e5ce3edf341afbdb5f2e6f2c10dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_05_Dif_Style_02_Alb.png using Guid(4ef2e5ce3edf341afbdb5f2e6f2c10dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e42afba100124dd200aadc6284619219') in 0.034425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_02_Dif_Style_02_Metal.tif
+  artifactKey: Guid(543d0efac660a4a6d8351954cbedfca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_02_Dif_Style_02_Metal.tif using Guid(543d0efac660a4a6d8351954cbedfca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3924d90797d7777be159db6e88893e36') in 0.0211526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Alpha_02_Dif_Style_02_AO.png
+  artifactKey: Guid(10da39b03d3764b2a8a3c064377df86d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Alpha_02_Dif_Style_02_AO.png using Guid(10da39b03d3764b2a8a3c064377df86d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e62c826e1f4f9c83b125dc9b178b743') in 0.0348497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bb794e3daaaa2f6b386bbad56a8e807') in 0.0185594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_12_Norm.mat
+  artifactKey: Guid(b07191bc9dd374920835c2f72ad4141d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_12_Norm.mat using Guid(b07191bc9dd374920835c2f72ad4141d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e4340d147ec711b8210b1aba9920c99') in 0.0899434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_10_Norm.mat
+  artifactKey: Guid(6c9fbaf90b5cb4d59a7da862394e23b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_10_Norm.mat using Guid(6c9fbaf90b5cb4d59a7da862394e23b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51f13a152bd5fb6f8a3f2238bf0adf2e') in 0.0994596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Alpha_01_Norm_Transp.mat
+  artifactKey: Guid(a7380905172384ce281c6f4403839054) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Alpha_01_Norm_Transp.mat using Guid(a7380905172384ce281c6f4403839054) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '73562d4ee9b83b6289cf6a0b7043a826') in 0.0187408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Sounds/Machin_Loop.wav
+  artifactKey: Guid(284c97ab4ab954a0d9c8de221d392040) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Sounds/Machin_Loop.wav using Guid(284c97ab4ab954a0d9c8de221d392040) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9405707d688a0c3df9d18b755fbb7862') in 0.0455544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_04_Dif_Style_02_Illum.png
+  artifactKey: Guid(2f3ad2223cd0e45b68ee63f8ffa4ea0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_04_Dif_Style_02_Illum.png using Guid(2f3ad2223cd0e45b68ee63f8ffa4ea0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea067ebaafafdab4ec41ec22b9053ff5') in 0.0186916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Player.prefab
+  artifactKey: Guid(dc6fa23628f77e243951d67740af5821) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Player.prefab using Guid(dc6fa23628f77e243951d67740af5821) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19c8dfe300f8b9f5aaeb596fe2eae2ad') in 0.028225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_05_Dif_Style_02_Illum.png
+  artifactKey: Guid(9ae38d30ea3494b5eb87f3b8f86d1dc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_05_Dif_Style_02_Illum.png using Guid(9ae38d30ea3494b5eb87f3b8f86d1dc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f15a500392bc81117da3e9de1508a307') in 0.0303873 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.0041555 seconds
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_01_Dif_Style_02_Norm.png
+  artifactKey: Guid(688ceb1c83a3242d09054f7976d73e2f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_01_Dif_Style_02_Norm.png using Guid(688ceb1c83a3242d09054f7976d73e2f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0925438e91867ca7a5dfcdcd39096460') in 0.0511837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_10_Dif_Style_02_Alb.png
+  artifactKey: Guid(3d4cac963ed644121b51e1b51b50d5fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_10_Dif_Style_02_Alb.png using Guid(3d4cac963ed644121b51e1b51b50d5fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5f432d44e89e77d0161d957600e963b') in 0.0199261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_06_Dif_Style_02_Illum.png
+  artifactKey: Guid(88502bc90706a431998c72c7edeb8fb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_06_Dif_Style_02_Illum.png using Guid(88502bc90706a431998c72c7edeb8fb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df36d784a13063e24341c433898c6983') in 0.0341159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_08_Dif_Style_02_Metal.tif
+  artifactKey: Guid(819e6130a327f4c108b08d62ed6b7214) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_08_Dif_Style_02_Metal.tif using Guid(819e6130a327f4c108b08d62ed6b7214) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8332660a06ce51432f4fdea2e813cf1') in 0.0320323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_05_Dif_Style_02_Metal.tif
+  artifactKey: Guid(8b12fc3696ea04cefa942f1606e9f790) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_05_Dif_Style_02_Metal.tif using Guid(8b12fc3696ea04cefa942f1606e9f790) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '167a1650f4fdcf10015a72386ef8468a') in 0.0361215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_06_Dif_Style_02_Metal.tif
+  artifactKey: Guid(61c7abc90551a43c889e63a09f09f435) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_06_Dif_Style_02_Metal.tif using Guid(61c7abc90551a43c889e63a09f09f435) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '709daa5e8523ef6e86a8409f0e893d27') in 0.0376664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_09_Dif_Style_02_Illum.png
+  artifactKey: Guid(58f4a6ce48bc0434fb992340abf00c3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_09_Dif_Style_02_Illum.png using Guid(58f4a6ce48bc0434fb992340abf00c3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80f543044c4336b336c8d50f1a738f94') in 0.0368776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_09_Dif_Style_02_Norm.png
+  artifactKey: Guid(83d5d46c5341e4938bf3cff9f39bd100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_09_Dif_Style_02_Norm.png using Guid(83d5d46c5341e4938bf3cff9f39bd100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc7a5168b1810d2ec07865ef34741d7d') in 0.058631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_03_Dif_Style_02_Alb.png
+  artifactKey: Guid(73f3fa47aeb414e56a6b63ef545f0a1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_03_Dif_Style_02_Alb.png using Guid(73f3fa47aeb414e56a6b63ef545f0a1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1c2ff62c9be53811b2dba8bcba74420') in 0.0228162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_06_Dif_Style_02_Norm.png
+  artifactKey: Guid(8d0603d0b590740c9aae2fc942604f9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_06_Dif_Style_02_Norm.png using Guid(8d0603d0b590740c9aae2fc942604f9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d767c2f7db4887e7dd9b61606fea8c4') in 0.0553386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_04_Dif_Style_02_Alb.png
+  artifactKey: Guid(6226d67980be5416da67ce4ef762978a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_04_Dif_Style_02_Alb.png using Guid(6226d67980be5416da67ce4ef762978a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac5d3831ff8cd64307dc7bc083c390a0') in 0.0325377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_05_Dif_Style_02_Alb.png
+  artifactKey: Guid(1f140b055fcbc4cd6b7fc64a9a804b93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_05_Dif_Style_02_Alb.png using Guid(1f140b055fcbc4cd6b7fc64a9a804b93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '084a9949500e518e50e1e5c5de4404e5') in 0.0339196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9265ff87209092b882b9d899f9a962c') in 0.0321176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Alpha_02_Norm.mat
+  artifactKey: Guid(75bd1d44567794d12bf0840b6878f7e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Alpha_02_Norm.mat using Guid(75bd1d44567794d12bf0840b6878f7e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24a0a0e5dbe00042a0311068d9447e8c') in 0.0501247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/_Others/Anim_02_8x8.mat
+  artifactKey: Guid(73012cbfc407945958a2595eab08fc0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/_Others/Anim_02_8x8.mat using Guid(73012cbfc407945958a2595eab08fc0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2b85218bdc493785b34cd6cd9deaadc') in 0.0123469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_12_Dif_Style_02_Alb.png
+  artifactKey: Guid(b3e7af4dad0604f7188ba717b804ab01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_12_Dif_Style_02_Alb.png using Guid(b3e7af4dad0604f7188ba717b804ab01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '146ccbed1b697e2d08dc7fd07dedf256') in 0.0194166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Your_Hown_Prefabs/Corridor_Test_02.prefab
+  artifactKey: Guid(d82ec5ee93f094f6bbfec1b7633467d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Your_Hown_Prefabs/Corridor_Test_02.prefab using Guid(d82ec5ee93f094f6bbfec1b7633467d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c84bf334fb92b7f89c5279a60a3174d4') in 0.0249307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 149
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_11_Dif_Style_02_AO.png
+  artifactKey: Guid(b214523738c754df797914a5ae6934ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_11_Dif_Style_02_AO.png using Guid(b214523738c754df797914a5ae6934ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af1c8e89d2abcfac63632b125206064a') in 0.0304903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_11_Dif_Style_02_Alb.png
+  artifactKey: Guid(b0a3e2494c351488bbeb5afdecb57510) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_11_Dif_Style_02_Alb.png using Guid(b0a3e2494c351488bbeb5afdecb57510) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7abc3e6686a63d1cad6cfdfb4cdd1322') in 0.0305847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/_Others/Cube_Light_B.mat
+  artifactKey: Guid(0287812dd5eaa4ffb92b1ff7cac029b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/_Others/Cube_Light_B.mat using Guid(0287812dd5eaa4ffb92b1ff7cac029b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b855077fc08c10aef089e37673cce0ce') in 0.0324148 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_10_Dif_Style_02_Norm.png
+  artifactKey: Guid(b3d1c18df35ff4e1abf9b1978ad2ad27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_10_Dif_Style_02_Norm.png using Guid(b3d1c18df35ff4e1abf9b1978ad2ad27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9628cd076b21b7df27f39762d770014b') in 0.0330854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Your_Hown_Prefabs/Simple_Room_01.prefab
+  artifactKey: Guid(a6899fb2bdf074b849737fb13a5b2863) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Your_Hown_Prefabs/Simple_Room_01.prefab using Guid(a6899fb2bdf074b849737fb13a5b2863) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3d702ff3ae3fe4b2408b438f6b44e29') in 0.0362253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 704
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_03_Dif_Style_02_Metal.tif
+  artifactKey: Guid(7be8a141d5cd34158bce3eaa9f916ac4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_03_Dif_Style_02_Metal.tif using Guid(7be8a141d5cd34158bce3eaa9f916ac4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf7485ea12ee86e07a1fd025d6bac60f') in 0.021137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Example_01/ReflectionProbe-0.png
+  artifactKey: Guid(019fa579a76f844cead60feb109cceb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Example_01/ReflectionProbe-0.png using Guid(019fa579a76f844cead60feb109cceb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8fe474ceeafd146c94b3284aa41a8e8') in 0.0323527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_10_Dif_Style_02_Illum.png
+  artifactKey: Guid(194f5643f30404562b532a568ea35d5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_10_Dif_Style_02_Illum.png using Guid(194f5643f30404562b532a568ea35d5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '19ce05faeb9538570439822167b44709') in 0.0208348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_07_Norm.mat
+  artifactKey: Guid(c54408d86de964ef49bf0899c4299987) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_07_Norm.mat using Guid(c54408d86de964ef49bf0899c4299987) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '33dea331055428d5708e6f588911dffe') in 0.0982235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_03_Norm.mat
+  artifactKey: Guid(c2a8b6b3c83764a35b0de5c69fa7227f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_03_Norm.mat using Guid(c2a8b6b3c83764a35b0de5c69fa7227f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36c9f4bd730af092dd672fd26841cd67') in 0.060754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_05_Dif_Style_02_Metal.tif
+  artifactKey: Guid(cdb89570126444b10a8ec5d8dd4f80ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_05_Dif_Style_02_Metal.tif using Guid(cdb89570126444b10a8ec5d8dd4f80ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1b21e17cab9448d4864344ec2680f18b') in 0.0371233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_11_Norm.mat
+  artifactKey: Guid(404deb87e2d654fbeb620af9c9138179) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_11_Norm.mat using Guid(404deb87e2d654fbeb620af9c9138179) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '986ef9df9e1193394847679e57386e86') in 0.0543031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Lights/Light_SideLight_03.FBX
+  artifactKey: Guid(96ff26c43a1fa467bae30891c5ea21f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Lights/Light_SideLight_03.FBX using Guid(96ff26c43a1fa467bae30891c5ea21f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5569413cf444817da1455535540e4b01') in 0.0369004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Doors/DoorWay_01_Up.FBX
+  artifactKey: Guid(55e3023cfed714323af2f5d22289936f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Doors/DoorWay_01_Up.FBX using Guid(55e3023cfed714323af2f5d22289936f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef2c33abcfacaec9c1529a2589c71374') in 0.0233492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Lights/Light_Corridor_02.FBX
+  artifactKey: Guid(3fd767de029714cdebd1eab9f4de059c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Lights/Light_Corridor_02.FBX using Guid(3fd767de029714cdebd1eab9f4de059c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f231c24e94a684b491882faa4ba4e1b9') in 0.0234428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Doors/DoorWay_01_Ramp.FBX
+  artifactKey: Guid(309a28d2a29e34f189b93cd06500e2ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Doors/DoorWay_01_Ramp.FBX using Guid(309a28d2a29e34f189b93cd06500e2ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c67bf97a3b157dfe23b319d268901bd') in 0.0210602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_11_Dif_Style_02_Norm.png
+  artifactKey: Guid(a85a0f2d6fe1a4a70a2b06d94a3ec482) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_11_Dif_Style_02_Norm.png using Guid(a85a0f2d6fe1a4a70a2b06d94a3ec482) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '736129673a940251e4eb62de44d78744') in 0.0235001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '094783fdb5ed71f8b0b3565743ccebc7') in 0.0149344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_08_Norm.mat
+  artifactKey: Guid(5ad07c5b622a146b7849af51853d43f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HD_Wall_08_Norm.mat using Guid(5ad07c5b622a146b7849af51853d43f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdcfd7cd712b1268a068066aeab417db') in 0.066826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_02_Dif_Style_02_Illum.png
+  artifactKey: Guid(242ba607c0b994d3282a14a305c48639) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Stuff_02_Dif_Style_02_Illum.png using Guid(242ba607c0b994d3282a14a305c48639) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '012d2d3aad0011b19607d212a8cce063') in 0.0274937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Props/Airing_01.FBX
+  artifactKey: Guid(f9706dca5b90c4c4486c1ef91c33f6f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Props/Airing_01.FBX using Guid(f9706dca5b90c4c4486c1ef91c33f6f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b886d0a3f4dc6ba7eedd9eaff787215') in 0.0263356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Doors/Door_Right_01.FBX
+  artifactKey: Guid(967de581d4a0d4d80a4578d3b06db310) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Doors/Door_Right_01.FBX using Guid(967de581d4a0d4d80a4578d3b06db310) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5d718c22494df3168d83f8908d4e1ca') in 0.0231114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Roofs/Roof_Glass_01_6x6.FBX
+  artifactKey: Guid(ea302fc1d3eda4c28b9b50598d0b9630) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Roofs/Roof_Glass_01_6x6.FBX using Guid(ea302fc1d3eda4c28b9b50598d0b9630) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f619faed4e9601655e941c9da5eecc12') in 0.0230025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Floors/Floor_Third_03_Strip_2x6.FBX
+  artifactKey: Guid(b55b61236e52a4cbab3506d79e3488c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Floors/Floor_Third_03_Strip_2x6.FBX using Guid(b55b61236e52a4cbab3506d79e3488c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '366f02461d737b6f09d3f354e6011469') in 0.0235342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Camera Profile.asset
+  artifactKey: Guid(d6eddb9593bd4b246a13e4da69760250) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Camera Profile.asset using Guid(d6eddb9593bd4b246a13e4da69760250) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5fcee3f58cfb48f27c7b1662eeb786fc') in 0.0132254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_05_Dif_Style_02_Norm.png
+  artifactKey: Guid(e6df85623125546cea64a7ef2e2508ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_05_Dif_Style_02_Norm.png using Guid(e6df85623125546cea64a7ef2e2508ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b07b58601c330e3ed91015870f12585d') in 0.0579495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_03_Dif_Style_02_Alb.png
+  artifactKey: Guid(046af155d512241e4b8f248db92b6046) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/HD_Wall_03_Dif_Style_02_Alb.png using Guid(046af155d512241e4b8f248db92b6046) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef5dee81d5d12e4f6fbc43454183d7fc') in 0.0267324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HUD_Screen_02.mat
+  artifactKey: Guid(0ee1ab16ec1c8471bb69a09980e0707d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/Materials/HUD_Screen_02.mat using Guid(0ee1ab16ec1c8471bb69a09980e0707d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc8bf36c82e4caa2e432deaabbc294bb') in 0.0296174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002362 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Roofs/Roof_Squared_02_6x6.FBX
+  artifactKey: Guid(50d5441fe077a466f8313250ca58e409) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Roofs/Roof_Squared_02_6x6.FBX using Guid(50d5441fe077a466f8313250ca58e409) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '745794c7c7ae5cad9bf4ec544866a3c5') in 0.0210092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Symbols/Word_Deck.FBX
+  artifactKey: Guid(17040102d5ecd4ac192e5bd8767bc1cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Symbols/Word_Deck.FBX using Guid(17040102d5ecd4ac192e5bd8767bc1cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '810d227436c41debf093b8b62ccd4455') in 0.0269237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Column_01_Big.FBX
+  artifactKey: Guid(68471fee4c88246a695841998d4a94a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Column_01_Big.FBX using Guid(68471fee4c88246a695841998d4a94a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83ec4761b366a7ab30b4c340f53fc375') in 0.0216504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Wall_Simple_01_InvertCoin.FBX
+  artifactKey: Guid(08a574b9197af489c9f2f87d9889c537) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Wall_Simple_01_InvertCoin.FBX using Guid(08a574b9197af489c9f2f87d9889c537) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39c99c3b64a020c41271776988adf227') in 0.0242953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Plateform_10.FBX
+  artifactKey: Guid(0cfeabe22ad8f4421b3ceaf3b706c38a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Plateform_10.FBX using Guid(0cfeabe22ad8f4421b3ceaf3b706c38a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ccaa8795b253a918559da168da777bb1') in 0.0265364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Symbols/Word_Zone.FBX
+  artifactKey: Guid(7798f2939789143868ec8eea13946429) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Symbols/Word_Zone.FBX using Guid(7798f2939789143868ec8eea13946429) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af887c27095071563e517910e80a64fa') in 0.0218313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Plateform_02.FBX
+  artifactKey: Guid(be3389a4e31e941f5839fff0e999879d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Plateform_02.FBX using Guid(be3389a4e31e941f5839fff0e999879d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd17894a72aa7ec214f9d1968f5057ced') in 0.0201064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Plateform_00.FBX
+  artifactKey: Guid(57ab5277aebf94be9a1859559bb1ec5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Plateform_00.FBX using Guid(57ab5277aebf94be9a1859559bb1ec5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a88c5deb8912e79165df7f2e57361217') in 0.0218176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Symbols/Num_8.FBX
+  artifactKey: Guid(5f1ff4c7c17914208a8e6d7200be23d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Symbols/Num_8.FBX using Guid(5f1ff4c7c17914208a8e6d7200be23d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcb470b708908ee586547494c4fb5a16') in 0.0242407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Porthole_01_Long.FBX
+  artifactKey: Guid(64d5ae519b1bb460e99415b61c6050a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Porthole_01_Long.FBX using Guid(64d5ae519b1bb460e99415b61c6050a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dfdc496215730e591696f7451a727d5') in 0.023783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stuff/Pipes_01.FBX
+  artifactKey: Guid(78860e47f525745cca86fb5a3544526b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stuff/Pipes_01.FBX using Guid(78860e47f525745cca86fb5a3544526b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ebe9f1b6415c0d8c04a9e7a2518954b') in 0.0217759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Wall_Inclined_01_CoinLeft.FBX
+  artifactKey: Guid(840436f5123e54e62b6339f3c398fd9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Wall_Inclined_01_CoinLeft.FBX using Guid(840436f5123e54e62b6339f3c398fd9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49444c49937915d17e07d26e947d9813') in 0.0228707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Wall_Gear_03_Half.FBX
+  artifactKey: Guid(4d5aada9f03a14368a5db06d1b0f855b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Wall_Gear_03_Half.FBX using Guid(4d5aada9f03a14368a5db06d1b0f855b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f30bf66070decc93d64eced4a89ad2ed') in 0.0211277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Plateform_08.FBX
+  artifactKey: Guid(48e5e43def15c4fad9904b8f7e058816) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Plateform_08.FBX using Guid(48e5e43def15c4fad9904b8f7e058816) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb1df1cfd6fd2a54955d071e6eb68ec9') in 0.0224617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Symbols/Num_2.FBX
+  artifactKey: Guid(818ef06dd8d7b40dfbff89133bbaa177) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Symbols/Num_2.FBX using Guid(818ef06dd8d7b40dfbff89133bbaa177) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '78dffb04c8ecbeb1f1e89dd83a67432a') in 0.0223214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Step_01.FBX
+  artifactKey: Guid(b16a8244d022947f4a7ae1b2e3973e29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Stairways/Stairway_Step_01.FBX using Guid(b16a8244d022947f4a7ae1b2e3973e29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32a92ff886dd7cd75b09440e7375e78f') in 0.0241398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Wall_Up_01_Long.FBX
+  artifactKey: Guid(764a06fad7a964654b43754bf3d03779) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Meshes/Walls/Wall_Up_01_Long.FBX using Guid(764a06fad7a964654b43754bf3d03779) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2acd18ce6c3b542a7ce09536145f6786') in 0.0230422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104745 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Doors/Vertical_Doors_Kit.prefab
+  artifactKey: Guid(ace79f6bf2f8949b0896b3d183802f95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Doors/Vertical_Doors_Kit.prefab using Guid(ace79f6bf2f8949b0896b3d183802f95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2315632def433da106f6dfa6b920343f') in 0.0254314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stuff/Pipes_03.prefab
+  artifactKey: Guid(889e835eaaf3b40ceb9a7b553c835820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stuff/Pipes_03.prefab using Guid(889e835eaaf3b40ceb9a7b553c835820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c5e6d9df7c355e8d0c5d9867570f3484') in 0.0294209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Symbols/Num_5.prefab
+  artifactKey: Guid(b20c11b870d8e4cb781fce27ac788924) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Symbols/Num_5.prefab using Guid(b20c11b870d8e4cb781fce27ac788924) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16ba1a6fb33258d9f4c25924054199d2') in 0.0268293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Floors/Floor_Hole_01.prefab
+  artifactKey: Guid(50efbeb1997f748f1b75d91c80fffbb5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Floors/Floor_Hole_01.prefab using Guid(50efbeb1997f748f1b75d91c80fffbb5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89b277a0d57134cb936ae034a3ed2713') in 0.0295868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stuff/Air_Grid_01.prefab
+  artifactKey: Guid(be523d7c447344ad7a4b2ee1c2588fb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stuff/Air_Grid_01.prefab using Guid(be523d7c447344ad7a4b2ee1c2588fb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '156882d44a0a1fcf64043150867006b0') in 0.0432051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stairways/Stairway_Plateform_06.prefab
+  artifactKey: Guid(b472d4868971a495684a3857705d6dc9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stairways/Stairway_Plateform_06.prefab using Guid(b472d4868971a495684a3857705d6dc9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb66e7ad7181e6e98d65d069bd7b3f55') in 0.0345583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Console_01_Half.prefab
+  artifactKey: Guid(0bb9da675ed6e4cd4829f553f9ae44f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Console_01_Half.prefab using Guid(0bb9da675ed6e4cd4829f553f9ae44f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e95a4e15755f8608e2e4151e7f6bc765') in 0.0301168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Lights/Light_SideLight_01.prefab
+  artifactKey: Guid(f7d75a18118f54bee9d051f36d865205) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Lights/Light_SideLight_01.prefab using Guid(f7d75a18118f54bee9d051f36d865205) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f36ce7f19588c139d8302c0e45a157e') in 0.0277515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Props/Airing_01.prefab
+  artifactKey: Guid(d8b78681a0006415a824f4e6273244dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Props/Airing_01.prefab using Guid(d8b78681a0006415a824f4e6273244dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50943dcc92e118f002bfcbade72033d9') in 0.0270798 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 23
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stairways/Stairway_PillarAngle_01.prefab
+  artifactKey: Guid(dfbb1c1d5761d4017adee38f10166564) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stairways/Stairway_PillarAngle_01.prefab using Guid(dfbb1c1d5761d4017adee38f10166564) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '257a5c2ad89aeb93f2959b1d4ed57255') in 0.0332861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stairways/Stairway_Plateform_01.prefab
+  artifactKey: Guid(d53c09b861710478db4d41d0a0c38914) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stairways/Stairway_Plateform_01.prefab using Guid(d53c09b861710478db4d41d0a0c38914) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6265c54ef4c0daa0267ec676137ec7a5') in 0.035159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Symbols/Word_Exit.prefab
+  artifactKey: Guid(f6fa560c4f27f4153ace49338cd4c393) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Symbols/Word_Exit.prefab using Guid(f6fa560c4f27f4153ace49338cd4c393) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '893f779fde69153ebb19c24f2659bc93') in 0.0279554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stairways/Stairway_Slope_45_01.prefab
+  artifactKey: Guid(a7d85abdc9b0b43f8858bad8d92695a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stairways/Stairway_Slope_45_01.prefab using Guid(a7d85abdc9b0b43f8858bad8d92695a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99ecaa58a68b187e67e217061e17f36e') in 0.0296071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Cube_01_Thin.prefab
+  artifactKey: Guid(a463311e7766f4cd9a07c9fab912e2a8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Cube_01_Thin.prefab using Guid(a463311e7766f4cd9a07c9fab912e2a8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a35dd2c2d2c29f3acb1c2e31d054822') in 0.0306552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Symbols/Word_Area.prefab
+  artifactKey: Guid(efc9f3d32f51342d9ac8665afc174897) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Symbols/Word_Area.prefab using Guid(efc9f3d32f51342d9ac8665afc174897) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9a183a69f25c8ad18e32023b774ada3') in 0.029301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stuff/Intercom_02.prefab
+  artifactKey: Guid(c223af1dea5734353bc1a5682944ed9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stuff/Intercom_02.prefab using Guid(c223af1dea5734353bc1a5682944ed9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f6c7788b363bf26dad319fac5593f5a6') in 0.0254959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stuff/Beam_01.prefab
+  artifactKey: Guid(f5a025b48724a4150a1d6973ebd897dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Stuff/Beam_01.prefab using Guid(f5a025b48724a4150a1d6973ebd897dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10a3f990f789bde622d354495a51eeb9') in 0.0299326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/_Skybox/render1.png
+  artifactKey: Guid(5f7489d75ec074371a72dd51bbf65e77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/_Skybox/render1.png using Guid(5f7489d75ec074371a72dd51bbf65e77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e17fb690ca7dd006d4a640cff42d7b7') in 0.0332879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Inclined_01_CoinLeft.prefab
+  artifactKey: Guid(c6c98ad43c9734baca83db6231416995) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Inclined_01_CoinLeft.prefab using Guid(c6c98ad43c9734baca83db6231416995) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e41e00722ce4d0264b1c97c8c6fd9619') in 0.0282398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Inclined_01_CoinRight_Half.prefab
+  artifactKey: Guid(30b181cf2bc374090ba5d715e09a7f6b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Inclined_01_CoinRight_Half.prefab using Guid(30b181cf2bc374090ba5d715e09a7f6b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb09ad5ae914cde29ae9a22723df9374') in 0.0288232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/_Skybox/render3.png
+  artifactKey: Guid(0d5ca999c155b429e8b31c6a00e57d2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/_Skybox/render3.png using Guid(0d5ca999c155b429e8b31c6a00e57d2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '438090d3861e973557e3577aa7ffc803') in 0.0381395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Simple_01_Long.prefab
+  artifactKey: Guid(ac93356612ce24c718977a61ed7246de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Simple_01_Long.prefab using Guid(ac93356612ce24c718977a61ed7246de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '307fb7dba4d16852ec9d864b38f9da07') in 0.0272373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Inclined_02_CoinRight.prefab
+  artifactKey: Guid(33403cd954ab747f9989f98b1e34c139) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Prefabs/Walls/Wall_Inclined_02_CoinRight.prefab using Guid(33403cd954ab747f9989f98b1e34c139) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4094fe6120ee84369d9f2e4d90d89b02') in 0.026895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/_Others/Light_Illum.tif
+  artifactKey: Guid(df16725e55ff943dcb6dafa81511ad69) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/_Creepy_Cat/_3D Scifi Kit Starter Kit_HD/_Textures/_Others/Light_Illum.tif using Guid(df16725e55ff943dcb6dafa81511ad69) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e453f2210fe113fee82e838fbc07d6d6') in 0.0202834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.027229 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(b4b0314b5cba0304fb6a5c462b0594d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(b4b0314b5cba0304fb6a5c462b0594d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf0cfd520a55c4ee48d01700aa95310d') in 0.0049488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.967356 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(b4b0314b5cba0304fb6a5c462b0594d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/New Terrain 1.asset using Guid(b4b0314b5cba0304fb6a5c462b0594d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc95cf7a969e9a4b85ea63f2a7cefc9e') in 0.0239794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
