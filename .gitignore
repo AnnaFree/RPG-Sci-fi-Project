@@ -9,10 +9,18 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
-
+!/[Ll]ibrary/*.asset
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
+
+# Ignore Logs folder Logs/
+Logs/
+
+# Ignore Unity Library folder
+Library/
+# Ignore user-specific settings
+UserSettings/
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
