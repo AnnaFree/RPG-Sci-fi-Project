@@ -2877,6 +2877,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 996667032120516272, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894194076205114127, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894194076205114127, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 883bd4c6ba3d3c642b266edf4bffe937, type: 2}
+    - target: {fileID: 1894194076205114127, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_WarningMessage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1894194076205114127, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2289742352705679529, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826432444423541300, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6499896072701455942, guid: dc6fa23628f77e243951d67740af5821, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2921,6 +2949,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8957951299681274523, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_Speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957951299681274523, guid: dc6fa23628f77e243951d67740af5821, type: 3}
+      propertyPath: m_BaseOffset
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2948,8 +2984,8 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6827222866209578087}
   m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Avatar: {fileID: 9000000, guid: cd006d0306c91cf47a77174d8bab7386, type: 3}
+  m_Controller: {fileID: 9100000, guid: 883bd4c6ba3d3c642b266edf4bffe937, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
