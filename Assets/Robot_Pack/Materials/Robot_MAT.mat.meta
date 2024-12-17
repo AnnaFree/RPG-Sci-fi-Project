@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c2078a7a1cf472945aa89542fcd8d3bd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 140765
+  packageName: Robot Pack
+  packageVersion: 1.0
+  assetPath: Assets/Robot_Pack/Materials/Robot_MAT.mat
+  uploadId: 296665
