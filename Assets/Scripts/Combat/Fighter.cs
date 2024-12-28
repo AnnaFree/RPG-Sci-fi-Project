@@ -1,14 +1,32 @@
 using UnityEngine;
-namespace RPG.Combat
-{
+using RPG.Movement;
+using System.Net;
+namespace RPG.Combat {
+
     public class Fighter : MonoBehaviour
     {
-        // Start is called once before the first execution of Update after the MonoBehaviour is created
-        public void Attack(CombatTarget target)
-        {
+        [SerializeField] float weaponRange = 2f;
 
+        Transform target;
+
+        private void Update()
+        {
+            if (target == null) {  return; }
+            bool isInRange = Vector3.Distance(transform.position, target.position) < weaponRange;
+           
+            if (target != null && !isInRange)
+            {
+                GetComponent<Mover>().MoveTo(target.position);
+            }
+            else
+            {
+                GetComponent<Mover>().Stop();
+            }
+        }
+        public void Attack(CombatTarget combatTarget)
+        {
+            target = combatTarget.transform;
         }
     }
-
 }
 
