@@ -1,4 +1,4 @@
-using RPG.Combat;
+using RPG.Core;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +6,9 @@ using UnityEngine.AI;
 //UnityEngine.AI include NavMesh
 namespace RPG.Movement
 {
-    public class Mover : MonoBehaviour
+    //adding , after inheritance allows addition to other interfaces, like IAction interface
+    //cannot inherit from more than one class but can inherit from many interfaces
+    public class Mover : MonoBehaviour, IAction
     {
         [SerializeField] Transform target;
 
@@ -23,13 +25,13 @@ namespace RPG.Movement
             UpdateAnimator();
         }
         //check if stopped method
-        public void Stop()
+        public void Cancel()
         {
+            //public method must be included for IAction to be passed
             navMeshAgent.isStopped = true;
         }
+        
         //moving methods
-       
-
         public void MoveTo(Vector3 destination)
         {
             navMeshAgent.destination = destination;
@@ -38,8 +40,9 @@ namespace RPG.Movement
 
         public void StartMoveAction(Vector3 destination)
         {
+            //redirects to mutual dependency
+            GetComponent<ActionScheduler>().StartAction(this);
             //cancel fighting before moving
-            GetComponent<Fighter>().Cancel();
             MoveTo(destination);
         }
 
